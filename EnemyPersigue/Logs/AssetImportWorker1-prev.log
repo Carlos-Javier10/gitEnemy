@@ -1,0 +1,584 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'es' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Carlos Javier/Documents/GitHub/EnemyPersigue
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50421
+Successfully changed project path to: C:/Users/Carlos Javier/Documents/GitHub/EnemyPersigue
+C:/Users/Carlos Javier/Documents/GitHub/EnemyPersigue
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13180] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 836995791 [EditorId] 836995791 [Version] 1048832 [Id] WindowsEditor(7,Carlos-Javier) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13180] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 836995791 [EditorId] 836995791 [Version] 1048832 [Id] WindowsEditor(7,Carlos-Javier) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 5.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Carlos Javier/Documents/GitHub/EnemyPersigue/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009901 seconds.
+- Loaded All Assemblies, in  0.379 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.250 seconds
+Domain Reload Profiling: 628ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (250ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1171ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (398ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3153 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.7 KB). Loaded Objects now: 3634.
+Memory consumption went from 126.6 MB to 126.5 MB.
+Total: 3.761600 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.241700 ms MarkObjects: 3.092300 ms  DeleteObjects: 0.110500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 581598.219917 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-NavMesh Surface.asset
+  artifactKey: Guid(5a74f02e9428fd34fab4537b0374d439) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene/NavMesh-NavMesh Surface.asset using Guid(5a74f02e9428fd34fab4537b0374d439) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e0237a7cd832727f1e8c9665572d067') in 0.115233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mini First Person Controller/Audio/Jump/Jump 2.wav
+  artifactKey: Guid(5b26cf3cd5f6b914a80e6d3476caaf86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Jump/Jump 2.wav using Guid(5b26cf3cd5f6b914a80e6d3476caaf86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1a1485dc51ed66e69915b161b14701f') in 0.049365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Crouch.cs
+  artifactKey: Guid(27b67ddb3d23b8340b125aede56d7e8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Crouch.cs using Guid(27b67ddb3d23b8340b125aede56d7e8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3584b4873cf1f16a28ba4c95776b4fe') in 0.013771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Revolver Gun (Low Poly)/Prefabs/Revolver_Green.prefab
+  artifactKey: Guid(c8c4497909a40e5478b59769c9612786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Revolver Gun (Low Poly)/Prefabs/Revolver_Green.prefab using Guid(c8c4497909a40e5478b59769c9612786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '430a0bf188f583a7530bb423801ddfd0') in 0.021601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainGenerator/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainGenerator/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '879f6069ae5325dd1e18fbed59b8dc30') in 0.009357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Revolver Gun (Low Poly)/Scripts/Gun_rotation.cs
+  artifactKey: Guid(ab22ec70f5559c640867ba6aa0707925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Revolver Gun (Low Poly)/Scripts/Gun_rotation.cs using Guid(ab22ec70f5559c640867ba6aa0707925) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ee2f150e22a7bab7f3c53f464d0869d') in 0.011396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Revolver Gun (Low Poly)/Materials/Revolver_Bullet.mat
+  artifactKey: Guid(5971d7112d01488428bd326467cccb8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Revolver Gun (Low Poly)/Materials/Revolver_Bullet.mat using Guid(5971d7112d01488428bd326467cccb8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bce79aaa7d40a4c2475be2f8c6c0f123') in 0.037990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ProceduralTerrainPainter/CHANGELOG.md
+  artifactKey: Guid(b6926abd9fc31f94a9e5c7a2ac095bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/CHANGELOG.md using Guid(b6926abd9fc31f94a9e5c7a2ac095bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20b3e19c5c0a735a4355d39012c4e7af') in 0.010196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TerrainGenerator/Scripts/Editor/MapEditor.cs
+  artifactKey: Guid(fb713ff0dbbdb394daf9e00b6502e56e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainGenerator/Scripts/Editor/MapEditor.cs using Guid(fb713ff0dbbdb394daf9e00b6502e56e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcb2d07ce2032b9731ec3801b23706a2') in 0.011716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs
+  artifactKey: Guid(084c01ab381b9da4082c1f84cf70751b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Scripts/Components/GroundCheck.cs using Guid(084c01ab381b9da4082c1f84cf70751b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf70affd748bf6b5143a4e90fb61d409') in 0.013688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_3.asset
+  artifactKey: Guid(0c299d6c9e830aa4d9ef9301ea8ec433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/TerrainData/TerrainChunk_3.asset using Guid(0c299d6c9e830aa4d9ef9301ea8ec433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8508716c149718efab37c848944fb45') in 0.040883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Revolver Gun (Low Poly)/Prefabs/Revolver_Bullet.prefab
+  artifactKey: Guid(b7ae10a17e67dc74eade85509a3d702f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Revolver Gun (Low Poly)/Prefabs/Revolver_Bullet.prefab using Guid(b7ae10a17e67dc74eade85509a3d702f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e44bbb2bdb1df53cadcd74ed9d589a84') in 0.013457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Snow_006_Normals.png
+  artifactKey: Guid(55e05f56a6aa4804ea4a76b5b7b35fd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Snow_006_Normals.png using Guid(55e05f56a6aa4804ea4a76b5b7b35fd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1e7ca99462e7ec8dad203d2ab0f0967') in 0.055806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ProceduralTerrainPainter/Editor/HeatmapPreview.cs
+  artifactKey: Guid(dad9f7fb2c8b43cb94d8de322fac919b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/Editor/HeatmapPreview.cs using Guid(dad9f7fb2c8b43cb94d8de322fac919b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac00b979806f932987bf0ff3e38c9913') in 0.010171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/LayerSettings.cs
+  artifactKey: Guid(2fcd88b0660f48b5963e0fd61344c739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/Runtime/LayerSettings.cs using Guid(2fcd88b0660f48b5963e0fd61344c739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec315da9c195f28f9bbb46ad679cf0d3') in 0.009360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Zoom.cs
+  artifactKey: Guid(780f90e951d635f439326ea715cd97e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Zoom.cs using Guid(780f90e951d635f439326ea715cd97e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5eda0f0161f6703fa0603dad824c9170') in 0.008004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Ground_037_Albedo.png
+  artifactKey: Guid(fbba21ba6c1f94445b5fc5ec8761416d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Ground_037_Albedo.png using Guid(fbba21ba6c1f94445b5fc5ec8761416d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '493b5bcac1cdce7d6c5d434ffbafd207') in 0.029023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Revolver Gun (Low Poly)/Materials/Revolver_desert_camo.mat
+  artifactKey: Guid(c5a71f0c439879e409f57f38a2cfbb31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Revolver Gun (Low Poly)/Materials/Revolver_desert_camo.mat using Guid(c5a71f0c439879e409f57f38a2cfbb31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6b9d28013fc88d610b36202546f8ae9') in 0.015750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/Modifiers/Modifier.cs
+  artifactKey: Guid(eca422bc96ff4a43ae948bbf21810224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/Runtime/Modifiers/Modifier.cs using Guid(eca422bc96ff4a43ae948bbf21810224) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce5ad2969797daba4f3a926a0f2da1e3') in 0.008738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Gravel_020_Albedo.png
+  artifactKey: Guid(2abbf73cff3e28c429570b6ac2d1d41b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Gravel_020_Albedo.png using Guid(2abbf73cff3e28c429570b6ac2d1d41b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99fb86f409a510afe1a44afaaaaea2ec') in 0.026210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing/Landing 1.wav
+  artifactKey: Guid(9fcb6dc763cd0354da305b5de2091287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Landing/Landing 1.wav using Guid(9fcb6dc763cd0354da305b5de2091287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42dfd409c72aa7653ee6eabb53e7dd96') in 0.031240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/Gravel_020_Normals.png
+  artifactKey: Guid(7ec5f51d29b74cb488abb7979cf79b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/Gravel_020_Normals.png using Guid(7ec5f51d29b74cb488abb7979cf79b2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7624760bf2ad4453b580a2d51f735799') in 0.029491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mini First Person Controller/Scripts/Components/Jump.cs
+  artifactKey: Guid(8f977f53412d81140ab13b3fca57cca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Scripts/Components/Jump.cs using Guid(8f977f53412d81140ab13b3fca57cca2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'befd9da2da6912c3d1e8562996b8f824') in 0.009818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Cliffs.terrainlayer
+  artifactKey: Guid(69debc15b685aef4aa7bb2783ddd8a2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Cliffs.terrainlayer using Guid(69debc15b685aef4aa7bb2783ddd8a2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81954ff089198409739d8c26b251487f') in 0.018033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainGenerator/Scripts/Abstract/IGenerator.cs
+  artifactKey: Guid(26ee295bdba5c94448d7a0b257105750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainGenerator/Scripts/Abstract/IGenerator.cs using Guid(26ee295bdba5c94448d7a0b257105750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b60329411c2b630c88dfa030aea7d084') in 0.009468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/sc.terrain.painter.runtime.asmdef
+  artifactKey: Guid(cc5c31e37fc376a4aab5c9833f04870e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/Runtime/sc.terrain.painter.runtime.asmdef using Guid(cc5c31e37fc376a4aab5c9833f04870e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c3a9051a29d1113dfe7a9cb66fd377a') in 0.014059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/Utilities.cs
+  artifactKey: Guid(092430f9bf37403bb29ef195b38b985e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/Runtime/Utilities.cs using Guid(092430f9bf37403bb29ef195b38b985e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38af81997a8f447165d5ab7197a71ad7') in 0.008729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Revolver Gun (Low Poly)/Materials/Revolver_green_camo.mat
+  artifactKey: Guid(9545e52fae152b040a8c9b68ecb7c9fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Revolver Gun (Low Poly)/Materials/Revolver_green_camo.mat using Guid(9545e52fae152b040a8c9b68ecb7c9fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb39a66a050118fae129cc1d1428c018') in 0.017792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/VidaJugador.cs
+  artifactKey: Guid(8491d099fb47ee844aab108e6a653cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/VidaJugador.cs using Guid(8491d099fb47ee844aab108e6a653cb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31fad20d259830c65da8aab09544562e') in 0.008700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/ProceduralTerrainPainter/Shaders/Noise.hlsl
+  artifactKey: Guid(2daea484bf984c319e6f827608a76110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/Shaders/Noise.hlsl using Guid(2daea484bf984c319e6f827608a76110) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebb2e79851e241de8083421195488a0f') in 0.008454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Revolver Gun (Low Poly)/Prefabs/Revolver_LP.prefab
+  artifactKey: Guid(3d6c7430bd21a564489df266ea8864e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Revolver Gun (Low Poly)/Prefabs/Revolver_LP.prefab using Guid(3d6c7430bd21a564489df266ea8864e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5539b0f273722f37c37361d7527db81f') in 0.012446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Revolver Gun (Low Poly)/Scenes/Weapon_Scene.unity
+  artifactKey: Guid(40f4d843e55d52d4a8f86f35152e35fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Revolver Gun (Low Poly)/Scenes/Weapon_Scene.unity using Guid(40f4d843e55d52d4a8f86f35152e35fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcfa2dcb3ca19e93b2bc104f403079b6') in 0.008348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing/Landing 3.wav
+  artifactKey: Guid(50b288ce0d5ac1e439827c5365c74c31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Landing/Landing 3.wav using Guid(50b288ce0d5ac1e439827c5365c74c31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fde2f1228b946624747a65c1261ede55') in 0.037433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainGenerator/Scripts/Editor/HeightsEditor.cs
+  artifactKey: Guid(34b91d042fca2a5489f6a0d9fd10f546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainGenerator/Scripts/Editor/HeightsEditor.cs using Guid(34b91d042fca2a5489f6a0d9fd10f546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1c80b955969ba9803fac96e0b2c3df6') in 0.009920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ProceduralTerrainPainter/Runtime/Modifiers/TextureMask.cs
+  artifactKey: Guid(4595e05301824e9284b1b12ad3f356dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/Runtime/Modifiers/TextureMask.cs using Guid(4595e05301824e9284b1b12ad3f356dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09167418778c1a61d4a4d73c66b84096') in 0.009426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mini First Person Controller/Audio/Landing/Landing 2.wav
+  artifactKey: Guid(ab9637a2491abbf4ca9c9601321cbb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Audio/Landing/Landing 2.wav using Guid(ab9637a2491abbf4ca9c9601321cbb88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7919e5c35748d8ed70019aecda20fbf4') in 0.034360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Dirt.terrainlayer
+  artifactKey: Guid(eb742adf8ec7a8b4684109a139de6019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Dirt.terrainlayer using Guid(eb742adf8ec7a8b4684109a139de6019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5af0b6e35c222eb641428e63175f50e9') in 0.018374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TerrainGenerator/Scripts/Editor/GrassEditor.cs
+  artifactKey: Guid(52223a13a5a88f04198827cda4f36f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainGenerator/Scripts/Editor/GrassEditor.cs using Guid(52223a13a5a88f04198827cda4f36f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '592c296eedf0fc74cdb191343bb67c87') in 0.009914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ProceduralTerrainPainter/Editor/TerrainPainterInspector.cs
+  artifactKey: Guid(a49fde16da1c76740ae5ddd0603fde96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/Editor/TerrainPainterInspector.cs using Guid(a49fde16da1c76740ae5ddd0603fde96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7b0aece460698cb7958c9b93fa53601') in 0.010672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Mini First Person Controller/Demo/Demo Mini FPC.unity
+  artifactKey: Guid(5f2b90ba65c7b244b875e239d5d42650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Mini First Person Controller/Demo/Demo Mini FPC.unity using Guid(5f2b90ba65c7b244b875e239d5d42650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '113901d9f519f8a5ef7d8fb43c5eb8b8') in 0.007835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/RayCast.cs
+  artifactKey: Guid(a1264430d0cad88409c93e3d7c7d9d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/RayCast.cs using Guid(a1264430d0cad88409c93e3d7c7d9d8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88cd1046dfea4d107a9ebdbb34a558d3') in 0.009431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Layers/Grass.terrainlayer
+  artifactKey: Guid(a026f67c6452bb7488422ec75c67c660) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Layers/Grass.terrainlayer using Guid(a026f67c6452bb7488422ec75c67c660) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f41c947cedf2a02f8eb5ef31ab3af921') in 0.018420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TerrainGenerator/Scripts/Editor/TreesEditor.cs
+  artifactKey: Guid(0394806c9d3e1ff429c574e5bd573072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainGenerator/Scripts/Editor/TreesEditor.cs using Guid(0394806c9d3e1ff429c574e5bd573072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa23fcb702d077d4d6cdb2f71ac1388f') in 0.009748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ProceduralTerrainPainter/_Demo/Textures/_LICENSE.txt
+  artifactKey: Guid(694a95718d4ab2c40a7054ff02a7d3af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ProceduralTerrainPainter/_Demo/Textures/_LICENSE.txt using Guid(694a95718d4ab2c40a7054ff02a7d3af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddd56c07b2bcab43b8e29ecc045c5094') in 0.014696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
